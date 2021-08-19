@@ -1,0 +1,10 @@
+language: rust
+rust:
+  - 1.53
+branches:
+  only:
+    - main
+notifications:
+  email:
+    recipients:
+      - aschwin.wester@gmail.com
