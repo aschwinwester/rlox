@@ -1,9 +1,10 @@
 language: rust
 rust:
-  - 1.53
+  - stable 
 branches:
   only:
     - main
+    - master
 notifications:
   email:
     recipients:
